@@ -1,4 +1,12 @@
-# 🎲 Java Revolution - L'Ombre de la Guillotine
+# Java Revolution - L'Ombre de la Guillotine
+
+Un jeu narratif interactif inspiré du concept du **Livre dont vous êtes le héros**, développé en Java avec interface graphique Swing. Plongez dans la France révolutionnaire et vivez une aventure épique où vos choix déterminent votre destinée.
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apache-maven&logoColor=white)
+![Swing](https://img.shields.io/badge/Swing-GUI-blue)
+
+## Description Revolution - L'Ombre de la Guillotine
 
 Un jeu narratif interactif inspiré du concept du **Livre dont vous êtes le héros**, développé en Java avec interface graphique Swing. Plongez dans la France révolutionnaire et vivez une aventure épique où vos choix déterminent votre destinée !
 
@@ -10,26 +18,26 @@ Un jeu narratif interactif inspiré du concept du **Livre dont vous êtes le hé
 
 **Java Revolution** est un RPG narratif où vous incarnez un personnage dans la France de 1789. Le jeu propose :
 
-- 🎭 Une narration dynamique chargée depuis des fichiers JSON
-- ⚔️ Un système de combat au tour par tour
-- 🎯 Des choix qui influencent l'histoire
-- 💾 Un système de sauvegarde/chargement de partie
-- 🎨 Une interface graphique soignée avec Swing
-- 🎵 Des effets sonores et musiques d'ambiance
-- 👤 Création de personnage avec différentes classes et talents
+- Une narration dynamique chargée depuis des fichiers JSON
+- Un système de combat au tour par tour
+- Des choix qui influencent l'histoire
+- Un système de sauvegarde/chargement de partie
+- Une interface graphique soignée avec Swing
+- Des effets sonores et musiques d'ambiance
+- Création de personnage avec différentes classes et talents
 
-## 🎮 Fonctionnalités
+## Fonctionnalités
 
-- ✅ Scénario "L'Ombre de la Guillotine" entièrement jouable
-- ✅ Système de personnages avec stats (vie, force, défense, etc.)
-- ✅ Combat stratégique contre des monstres
-- ✅ Inventaire d'armes et objets
-- ✅ Tests de compétences (dés, probabilités)
-- ✅ Interface d'authentification et gestion des utilisateurs
-- ✅ Sauvegarde de progression
-- ✅ Architecture modulaire et extensible
+- Scénario "L'Ombre de la Guillotine" entièrement jouable
+- Système de personnages avec stats (vie, force, défense, etc.)
+- Combat stratégique contre des monstres
+- Inventaire d'armes et objets
+- Tests de compétences (dés, probabilités)
+- Interface d'authentification et gestion des utilisateurs
+- Sauvegarde de progression
+- Architecture modulaire et extensible
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - **Langage** : Java 17+
 - **Build Tool** : Maven
@@ -38,7 +46,7 @@ Un jeu narratif interactif inspiré du concept du **Livre dont vous êtes le hé
 - **Format de données** : JSON pour les scénarios
 - **Architecture** : POO avec pattern MVC
 
-## 📋 Prérequis
+## Prérequis
 
 - **Java JDK 17** ou supérieur
 - **Maven 3.6+**
@@ -60,7 +68,7 @@ sudo apt install openjdk-17-jdk maven
 **Sur Windows :**
 Téléchargez Java depuis [adoptium.net](https://adoptium.net/)
 
-## 🚀 Installation et lancement
+## Installation et lancement
 
 ### Méthode 1 : Avec Maven (recommandé)
 
@@ -93,7 +101,7 @@ mvn clean package
 java -jar target/java-revolution-1.0.jar
 ```
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 java-revolution/
@@ -117,7 +125,7 @@ java-revolution/
 └── README.md
 ```
 
-## 🎯 Comment jouer
+## Comment jouer
 
 1. **Créez un compte** ou connectez-vous
 2. **Créez votre personnage** en choisissant :
@@ -128,12 +136,12 @@ java-revolution/
 4. **Combattez** les ennemis avec stratégie
 5. **Sauvegardez** votre progression à tout moment
 
-## 📚 Scénarios disponibles
+## Scénarios disponibles
 
 ### L'Ombre de la Guillotine
 Incarnez un citoyen dans la France révolutionnaire de 1789. Survivez aux tumultes de la Révolution, faites des choix moraux difficiles et découvrez les multiples fins possibles selon vos actions.
 
-## 🔧 Développement
+## Développement
 
 ### Ajouter un nouveau scénario
 
@@ -161,29 +169,25 @@ Incarnez un citoyen dans la France révolutionnaire de 1789. Survivez aux tumult
 }
 ```
 
-## 🧪 Tests
+## Tests
 
 ```bash
 # Lancer les tests
 mvn test
 ```
 
-## 👨‍💻 Auteur
+## Auteur
 
 **Yassine Badaoui** - [@ez1kl](https://github.com/ez1kl)
 
 Projet réalisé dans le cadre du projet annuel - ESGI Aix-en-Provence
 
-## 🙏 Remerciements
+## Remerciements
 
 - L'équipe pédagogique de l'ESGI
 - Les inspirations : Les Livres dont vous êtes le héros
 - La communauté Java
 
-## 📝 Notes
+## Notes
 
 Ce projet a été développé à des fins éducatives dans le cadre de ma formation à l'ESGI. Le code est optimisé pour la lisibilité et l'apprentissage de la POO en Java.
-
----
-
-**Bon jeu et que la Révolution soit avec vous ! 🇫🇷**
